@@ -40,17 +40,24 @@
 		header {
 			width: calc(100% - 120px);
 			/* min-width: 1024px; */
-			height: 40px;
-			background-color: #203049;
+			height: 60px;
+			padding: 5px;
+			background: linear-gradient(#1c1b2d, #294c76 10%, #1F3B5A 60%, #28304c 100%);
 			margin-left: auto;
 		}
-
+		header img{
+			width: auto;
+			max-width: 100%;
+			height: 50%;
+		}
+		header div+div{
+			margin-top: 5px;
+		}
 		.content {
 			display: flex;
 			flex-wrap: wrap;
 			width: 100%;
-			/* min-width: 1024px; */
-			height: calc(100% - 40px);
+			height: calc(100% - 60px);
 			padding-left: 120px;
 		}
 
@@ -66,7 +73,8 @@
 		.video_box,
 		.road_box {
 			position: relative;
-			flex: 1 1 69%;
+			flex: 1 1 64%;
+			/* flex: 1 1 69%; */
 			/* flex: 1 1 calc(70% - 3px); */
 			/* width: calc(72% - 12px); */
 		}
@@ -77,7 +85,8 @@
 
 		.bet_box,
 		.good_road {
-			width: 29%;
+			width: 36%;
+			/* width: 29%; */
 			min-width: 300px;
 		}
 
@@ -110,7 +119,13 @@
 			<img src="./images/ba3/left_menu.png" alt="">
 		</div>
 		<header>
-			<img src="./images/ba3/header.png" alt="">
+			<div>
+				<img src="./images/ba3/ch.png" alt="">
+			</div>
+			<div>
+				<img src="./images/ba3/bar.png" alt="">
+			</div>
+			
 		</header>
 		<div class="content">
 			<div class="video_box">
