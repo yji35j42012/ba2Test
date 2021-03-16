@@ -20,11 +20,15 @@
 			height: 100%;
 			background: linear-gradient(#1c1b2d, #294c76 10%, #294c76 45%, #1c1b2d 75%);
 		}
+		body{
 
+			overflow: auto;
+		}
 		.wrap {
 			position: relative;
 			width: 100%;
 			max-width: 1220px;
+			min-width: 1024px;
 			margin: auto;
 		}
 
@@ -38,6 +42,7 @@
 
 		header {
 			width: calc(100% - 120px);
+			/* min-width: 1024px; */
 			height: 40px;
 			background-color: #203049;
 			margin-left: auto;
@@ -47,6 +52,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			width: 100%;
+			/* min-width: 1024px; */
 			height: calc(100% - 40px);
 			padding-left: 120px;
 		}
@@ -67,9 +73,11 @@
 			/* width: calc(100% - 300px); */
 			/* min-width: calc(100% - 300px); */
 		}
-		.bet_box{
+
+		.bet_box {
 			height: 415px;
 		}
+
 		.bet_box,
 		.good_road {
 			width: 35%;
